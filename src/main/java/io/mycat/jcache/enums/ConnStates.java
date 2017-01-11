@@ -19,5 +19,7 @@ public enum ConnStates {
     conn_mwrite,     /**< writing out many items sequentially */
     conn_closed,     /**< connection is closed */
     conn_watch,      /**< held by the logger thread as a watcher */
-    conn_max_state   /**< Max state value (used for assertion) */
+    conn_max_state ,  /**< Max state value (used for assertion) */
+    
+    conn_test_state
 }
